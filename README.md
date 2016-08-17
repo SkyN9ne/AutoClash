@@ -11,6 +11,11 @@ AutoClash is a powerful tool for Clash of Clans, that utilizes the Android Debug
 
 Always Free and Open Source! Visit the wiki for more information (https://github.com/MicroBlaster/AutoClash/wiki).
 
+## "Fair Play" initiative
+On April 17, 2016, SuperCell warned users they will be banned for use of "Third Party Software" (http://supercell.com/en/safe-and-fair-play/). This includes Hacks, “mods”, “Bots”, automation, scripts, or any other programs that aim to modify or provide unearned progress. Device emulators and rooted devices are allowed.
+
+Authough AutoClash is difficult to detect, you are advised that your use of this product is a direct violation of the SuperCell TOS (http://supercell.com/en/terms-of-service/).  
+Use at your own risk! We are not responsable for loss of your account if you get banned.
 
 ## Installation
   ------------
