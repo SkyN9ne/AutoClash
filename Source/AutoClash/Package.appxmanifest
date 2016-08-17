@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="779addab-037d-4df3-8ef2-16a8a29873ec"
+    Name="fee556bd-6ba7-4d70-a7ed-8d2a7f938010"
     Publisher="CN=dmccartney"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="779addab-037d-4df3-8ef2-16a8a29873ec" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="fee556bd-6ba7-4d70-a7ed-8d2a7f938010" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>App1</DisplayName>
+    <DisplayName>AutoClash</DisplayName>
     <PublisherDisplayName>dmccartney</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="App1.App">
+      EntryPoint="AutoClash.App">
       <uap:VisualElements
-        DisplayName="App1"
+        DisplayName="AutoClash"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="App1"
+        Description="AutoClash"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
