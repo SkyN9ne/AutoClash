@@ -3,7 +3,7 @@
 AutoClash is a powerful tool for Clash of Clans, that utilizes the Android Debug Bridge (ADB) to automate gameplay. It works with most device emulators and physical devices.
 
 
-#### Features
+## Features
 ----------
 - Multiple device support and multiple accounts on each device. 
 - Automatic training, resource farming, and donations.
@@ -12,7 +12,7 @@ AutoClash is a powerful tool for Clash of Clans, that utilizes the Android Debug
 Always Free and Open Source! Visit the wiki for more information (https://github.com/MicroBlaster/AutoClash/wiki).
 
 
-#### Installation
+## Installation
   ------------
 Download the latest installer from https://github.com/MicroBlaster/AutoClash/releases 
 Run the installer and follow the on-screen instructions.
@@ -25,14 +25,11 @@ Although other emulators like BlueStacks and Droidx may work, they are not suppo
 For a complete list of supported devices visit https://github.com/MicroBlaster/AutoClash/wiki/devices
 
 
-#### Copyright and Licensing
+## Copyright and Licensing
 ----------
 AutoClash is Copyright (C) David McCartney, and liscensed under the GNU GENERAL PUBLIC LICENSE v3 or later (http://www.gnu.org/licenses/gpl-3.0.txt). See license.txt for details.
 
-AutoClash uses the following party libraries:
-- 
-
-#### Development Team
+## Development Team
 ----------
 David McCartney <dmc@it1.biz>
 
