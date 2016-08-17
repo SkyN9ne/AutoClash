@@ -17,7 +17,7 @@ Always Free and Open Source! Visit the wiki for more information (https://github
 Download the latest installer from (https://github.com/MicroBlaster/AutoClash/releases), run the installer, and follow the on-screen instructions.
 
 Prerequistes :
-- Windows 10 (Earlier versions are not supported by the Universal Windows Platform (UWP).
+- Windows 10  - Earlier versions are not supported by the Universal Windows Platform (UWP).
 - A supported android device or a multi-instance emulator (Nox or MEmu).
 
 Although other emulators like BlueStacks and Droidx may work, they are not supported.
