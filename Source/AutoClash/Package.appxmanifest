@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="fee556bd-6ba7-4d70-a7ed-8d2a7f938010"
+    Name="73a804d1-d39b-45b6-84e4-cb5d10d6535b"
     Publisher="CN=dmccartney"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="fee556bd-6ba7-4d70-a7ed-8d2a7f938010" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="73a804d1-d39b-45b6-84e4-cb5d10d6535b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>AutoClash</DisplayName>

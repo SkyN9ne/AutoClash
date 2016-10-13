@@ -1,4 +1,4 @@
-# Automation for Clash of Clans
+﻿# Automation for Clash of Clans
 ----------
 AutoClash is a powerful tool for Clash of Clans, that utilizes the Android Debug Bridge (ADB) to automate gameplay. Since we are using the built-in android developer mode, your device does not have to be rooted.
 
@@ -32,7 +32,7 @@ For a complete list of supported devices visit (https://github.com/MicroBlaster/
 
 ## Copyright and Licensing
 ----------
-AutoClash is Copyright (C) David McCartney, and liscensed under the GNU GENERAL PUBLIC LICENSE v3 or later (http://www.gnu.org/licenses/gpl-3.0.txt). See license.txt for details.
+AutoClash is Copyright © 2016 David McCartney, and liscensed under the GNU GENERAL PUBLIC LICENSE v3 or later (http://www.gnu.org/licenses/gpl-3.0.txt). See license.txt for details.
 
 ## Development Team
 ----------
