@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -37,7 +38,7 @@ namespace AutoClash
         /// will be used such as when the application is launched to open a specific file.
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected override async void OnLaunched(LaunchActivatedEventArgs e)
         {
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
@@ -62,7 +63,30 @@ namespace AutoClash
                 }
 
                 // Place the frame in the current Window
-                Window.Current.Content = rootFrame;
+                //Window.Current.Content = rootFrame;
+                //Window.Current.Content = new Pages.Main(rootFrame);
+
+                //  Display an extended splash screen if app was not previously running.
+                if (e.PreviousExecutionState != ApplicationExecutionState.Running)
+                {
+                    bool loadState = (e.PreviousExecutionState == ApplicationExecutionState.Terminated);
+
+                    Pages.Splash splash = new Pages.Splash(e.SplashScreen, loadState);
+                    rootFrame.Content = splash;
+                    Window.Current.Content = rootFrame;
+                    Window.Current.Activate();
+
+                    // Load application data
+                    await LoadData(splash);
+
+                    // Navigate to Home page.
+                    rootFrame.Navigate(typeof(Pages.Home));
+
+                    // Place the frame in main splitview content.
+                    Window.Current.Content = new Pages.Main(rootFrame);
+
+                }
+
             }
 
             if (e.PrelaunchActivated == false)
@@ -72,11 +96,28 @@ namespace AutoClash
                     // When the navigation stack isn't restored navigate to the first page,
                     // configuring the new page by passing required information as a navigation
                     // parameter
-                    rootFrame.Navigate(typeof(MainPage), e.Arguments);
+                    rootFrame.Navigate(typeof(Pages.Home), e.Arguments);
                 }
                 // Ensure the current window is active
                 Window.Current.Activate();
             }
+        }
+
+        internal async Task LoadData(Pages.Splash splash)
+        {
+
+            // Initialize ADB
+            splash.UpdateStatus("Initializing ADB..");
+            await Task.Delay(1000);
+
+            // Load Devices
+            splash.UpdateStatus("Loading Devices...");
+            await Task.Delay(1000);
+
+            // data loading here
+            splash.UpdateStatus("ohhh la laaaaa ");
+            await Task.Delay(1000);
+
         }
 
         /// <summary>
